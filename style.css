@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background: url("./background.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper header {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.wrapper p {
+  color: #fff;
+  font-weight: 500;
+}
+
+
+.wrapper .input__field {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.input__field input {
+  width: 70%;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+input ::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  display: none;
+}
+
+.input__field button {
+  width: 30%;
+  background: #483285;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input__field input,
+.input__field button {
+  height: 50px;
+  outline: none;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.input__field button:active {
+  transform: scale(0.98);
+}
